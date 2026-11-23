@@ -12,6 +12,7 @@ Read the product brief, known constraints, and relevant repository agreements. U
 - State who arrives, what they need to do first, and what a successful result looks like. For a developer tool, show executable behavior. For a game, show a real play or planning decision. Keep claims tied to what exists.
 - Identify entry points and behavior people already rely on. Separate product decisions from reusable standards and record any choice that would affect compatibility, data, or production.
 - Define success measures and evidence before choosing a design: first useful action, task completion, quality or compatibility, and adoption where relevant. Record baseline, target, and unknowns; do not invent research or success metrics. Use the same content, conditions, and measures when comparing alternatives. Distinguish observable results, user research, and hypotheses.
+- Lead a landing page with the real product promise, then visible evidence. When a before/after comparison is the proof, show both outcomes on first view where feasible; an optional replay may explain the transition but should not be required to discover the benefit. Put advanced controls after the first useful action.
 - Capture the chosen direction, open decisions, non-goals, and a reviewable first slice. For pages, include the proposed first action and the concrete evidence visible before secondary content.
 
 Use [UX design](../oddmash-ux-design/SKILL.md) for task flows and [product growth](../oddmash-product-growth/SKILL.md) for feedback and experimentation after launch.
