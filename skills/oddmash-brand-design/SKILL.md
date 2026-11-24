@@ -24,6 +24,6 @@ Use [web delivery](../oddmash-web-delivery/SKILL.md) for framework and delivery 
 
 ## Shared soft geometry
 
-For every rounded button and link, remove the keyboard focus indicator and leave focused controls visually identical to unfocused controls.
+Preserve a visible keyboard focus indicator on rounded buttons and links, and ensure it stays visible in every supported theme.
 
 Use a restrained Vercel/Geist-inspired starting point, adjusting values to the brand and real geometry: 6px for small controls, 8px for standard buttons and inputs, 12px for cards and code blocks, 16px for overlays and large surfaces, and 24px for prominent product previews. Reserve pill radii for chips, avatars and compact status indicators. Keep edges straight where alignment or measured content requires it. Use role-based tokens, subtle borders, quiet elevation and generous whitespace; do not round every nested surface. Preserve product colors, imagery and distinct composition. Use the supported themes and evaluate nested corner alignment, focus visibility and overflow in real renders rather than enforcing a numeric radius.
