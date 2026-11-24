@@ -21,7 +21,7 @@ For example, Kowrap should foreground Korean text at the same measured width bef
 - Choose a composition around one irreplaceable product artifact. Compare at least two viable compositions for a substantial redesign (for example editorial demo vs split working surface); choose by visitor task, not trend. Define the typography roles, semantic colors, spacing rhythm, shape language, imagery and motion before polishing.
 - Use actual screens, code, outputs, diagrams or gameplay rather than fabricated dashboards, stock filler, or decorative abstract 3D art. Use custom illustration only when it communicates something specific and has appropriate rights.
 - Do not default to oversized centered headline, pill eyebrow, gradient glow, glass panels, identical rounded feature cards, gratuitous badges, floating decorative blobs, excessive icons, fake metrics, logo strips or generic AI copy. Any such treatment must have a product-specific purpose. Avoid a uniform hero/features/CTA template across products.
-- Use purposeful asymmetry, whitespace, text scale, contrast, and content density. Do not impose one palette, font, radius, dark theme or layout on the entire organization. Reuse accessible behavior and semantic tokens without forcing visual sameness.
+- Use purposeful asymmetry, whitespace, text scale, contrast, and content density. Use the shared soft geometry baseline for controls and surfaces unless the product has a documented reason to diverge; do not impose one palette, font, dark theme or layout on the entire organization. Reuse accessible behavior and semantic tokens without forcing visual sameness.
 - Use direct human copy. State what happens, how to use it and what the visitor gains. Remove repeated slogans, padded feature lists, em/en dashes as sentence punctuation, invented evidence and unnecessary labels.
 - Animate actual product behavior when useful. Prefer stable demonstrations with natural transitions and distinct examples; avoid endless decorative loops, forced auto-play, controls duplicated elsewhere, or motion that obscures reading. Provide accessible control when automatically moving content requires it, and a reliable static reduced-motion state.
 
@@ -43,3 +43,5 @@ Inspect actual rendered desktop and mobile screenshots and interact with the fir
 - Did the build, navigation, links, examples and relevant interactions actually pass? Record screenshots, commands, exact revision and unverified cases. Revise defects before reporting ready.
 
 Do not promise uniqueness from a checklist alone. Validate against actual content and rendered evidence; if the product cannot be run, label illustrative material and report the missing evidence.
+
+For landing pages, use 16–24px for the primary product preview, 12–16px for supporting surfaces, and 8px for standard actions. Maintain readable spacing and straight content alignment; avoid nested rounded card grids. Review the mobile and desktop hierarchy before delivery.
