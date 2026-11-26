@@ -6,6 +6,8 @@ Read the current product, README, supported features, brand assets, audience, us
 
 Choose the dominant visitor task, not a fixed landing template. Combine paths when a product has multiple audiences.
 
+Confirm the landing's language scope from the product and the intended audience before writing copy. For a multilingual landing or a change to locale behavior, load [internationalization](../../oddmash-internationalization/SKILL.md). Verify each supported locale through the headline, navigation, first action, demo feedback and destination docs. Where a destination is available only in a fallback language, make the language of that destination clear.
+
 | Product type | First useful action | Design and content direction |
 | --- | --- | --- |
 | Library or SDK | Install and complete a real integration | Readable editorial or technical typography, restrained palette, native docs with search when useful, runnable quickstart, API reference, recipes and limitations. Show input/output or a working example above the fold. |
