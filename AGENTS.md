@@ -17,7 +17,7 @@ Run `python3 -m unittest discover -s tests` for installation or validation chang
 
 ## GitHub account use
 
-Follow the [Oddmash GitHub account policy](https://github.com/Oddmash/.github/blob/main/docs/github-account-policy.md). Use `arvynoo` for AI-authored commits, issues and PRs with command-scoped authentication and a separate checkout or worktree per session. Only `qtaghdi` gives final approval to and manually merges external contributions.
+Follow the [Oddmash GitHub account policy](https://github.com/Oddmash/.github/blob/main/docs/github-account-policy.md). Use the verified maintainer account for authorized GitHub work, with command-scoped authentication and a separate checkout or worktree per session. Reserve the alternate account for isolated tests. Only `qtaghdi` gives final approval to and manually merges external contributions.
 
 ## Applying shared and product guidance
 
@@ -29,6 +29,7 @@ Use the role map in [README.md](README.md). Load the primary decision owner, the
 
 - This repository is the source of truth for reusable skills. Do not move agent runtime code, credentials, deployment policy, or product-specific authority here.
 - Agent maintainers consume skills by exact path at a reviewed immutable commit, with independent upgrade and rollback decisions. Preserve stable skill names and paths or document migrations.
+- Keep implementation lessons in the skill that owns the decision. Link the public product evidence in the change record, and leave product selectors, spacing values, article catalogs, and release commands in the product repository. Record what was observed in automation, the browser, or production.
 - Changes to a skill's activation, expected evidence, or compatibility must describe the impact on consumers. A skill cannot grant access, approve a deployment, or override the organization agreements or target repository contracts.
 
 ## Agent contribution attribution
