@@ -1,7 +1,7 @@
 [
   {
     "id": "library-landing",
-    "prompt": "Redesign a developer library landing so a first-time user can install it and see real behavior.",
+    "prompt": "Redesign a React gesture library landing so a first-time user can try an actual interaction and install it. Use Boundra and Oddmash UI as references. The library has no established palette.",
     "primary": [
       "oddmash-product-planning",
       "oddmash-ux-design",
@@ -9,18 +9,20 @@
     ],
     "support": [
       "oddmash-developer-documentation",
+      "oddmash-motion-design",
       "oddmash-web-delivery",
       "oddmash-visual-clarity",
       "oddmash-quality-assurance"
     ],
     "expected": [
       "Show real product input/output and one useful action before decorative content.",
-      "Compare two composition directions; consult Oddmash Website and Juliya without forcing their theme.",
+      "Compare composition and palette directions on the real demo. Use Boundra for how it shows a result and Oddmash UI for how it organizes developer guidance.",
+      "Use visitor-triggered gesture motion with a keyboard equivalent and an immediate result in reduced-motion mode.",
       "Review desktop and mobile renders and report observed defects."
     ],
     "avoid": [
       "Fabricated dashboards or invented benchmark claims.",
-      "Automatic inclusion of every motion pattern."
+      "A preset light and green palette, automatic playback for a gesture the visitor can try, or loading every motion pattern."
     ]
   },
   {

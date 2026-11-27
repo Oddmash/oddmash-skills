@@ -20,16 +20,20 @@ For example, Juliya should foreground text at the same measured width before/aft
 
 ## Maintainer-preferred reference sites
 
-Use the current [Oddmash Website](https://oddmash.github.io/oddmash-website/) and [Juliya](https://oddmash.github.io/juliya/) as the maintainer's visual references. Inspect their current rendered pages and relevant product guidance before borrowing principles; record the observed reference traits. The public Juliya landing is `/juliya/` (the legacy installer identifier does not define its site route). If inaccessible, use the repository's current README and product guidance and report the visual evidence gap.
+Choose references that match the visitor task. Use references named by the maintainer first and inspect current rendered pages before borrowing principles. Record which traits apply. If a site is inaccessible, use its current repository and product guidance and record the visual evidence gap.
 
-- Oddmash Website: carbon background, large left-aligned headline, restrained navigation, a single brand mark as the hero focal point, a compact project gallery and clear editorial hierarchy, distinctive role illustrations and purposeful workflow motion, natural document scrolling, detailed content on dedicated routes.
-- Juliya: restrained carbon/neutral surfaces, large white type, succinct left-side copy, two distinct first-use actions, one genuine interactive demonstration as the focal point, synchronized examples and code, native developer documentation.
-- Transfer the restraint, visual rhythm, evidence-led hierarchy, clear interaction and intentional motion, not the exact colors, component arrangements, artwork, or page structure. A game, product or library keeps its own visual identity.
+- [Boundra](https://oddmash.github.io/boundra/) shows a concrete developer problem and its result near the first action.
+- [Oddmash UI](https://oddmash.github.io/oddmash-ui/) gives developers clear paths to installation, component usage and an interaction lab.
+- [Oddmash Website](https://oddmash.github.io/oddmash-website/) uses a single brand mark, a compact project gallery and purposeful workflow motion.
+- [Juliya](https://oddmash.github.io/juliya/) uses one genuine interactive demonstration as the focal point, with synchronized examples and native developer documentation.
+- Borrow the way a reference makes its product understandable. Keep colors, artwork, component arrangement and page structure grounded in the current product.
 - For a material redesign, compare the candidate against these references on content density, whitespace, hierarchy and first-action discoverability. Do not claim visual parity without inspecting actual renders.
 
-## Cinematic product heroes
+## Motion for product proof
 
-When the real product has multiple meaningful states or the maintainer requests an immersive hero, prefer a spacious integrated stage over a small dashboard card. Keep the headline, first action and reading position stable, and use a single focal artifact to tell a story with cause, action and consequence. Juliya reveals actual reflow across measured widths; Oddmash uses a distinctive mark and staged workflow. Translate that principle into the product's own material, for example an architecture path, diagnostic and corrected path in Boundra. Compare an integrated scene against a static proof, and use the [motion design guidance](../../oddmash-motion-design/SKILL.md) to choose automatic sequencing and interruption. Do not make cinematic mean a decorative movie, constant camera movement or autoplay that obscures content.
+Decide what behavior the visitor needs to see before choosing an animation. A static output is sufficient when the visitor can already understand the result. When movement communicates a change, load [motion design](../../oddmash-motion-design/SKILL.md) before implementing the hero. Start with the visitor's input and show the real consequence on the same surface. For a gesture or stateful component, let the visitor trigger the change and offer a keyboard-operable equivalent. Use automatic sequencing when multiple real states need explanation and the sequence adds context the visitor cannot get from the initial view. Keep the headline and first action visible from first paint. Check an interrupted transition and a reduced-motion state that still demonstrates the outcome.
+
+For an immersive hero, compare a spacious demonstration stage with a static proof. Use one artifact to connect cause, action and consequence. Juliya reveals reflow across measured widths. Boundra could show an architecture path, a diagnostic and a corrected path. Follow the motion specialist's sequencing and interruption guidance when automatic playback serves that story.
 
 ## Design from identity
 
@@ -38,9 +42,8 @@ For a new or material redesign, use a short direction record with two compositio
 - Choose a composition around one irreplaceable product artifact. Compare at least two genuinely different compositions for a substantial redesign (for example a single transforming artifact vs simultaneous comparison). Consider removing existing UI before adding to it; choose by visitor task, not trend or existing markup. Define the typography roles, semantic colors, spacing rhythm, shape language, imagery and motion before polishing.
 - Use actual screens, code, outputs, diagrams or gameplay rather than fabricated dashboards, stock filler, or decorative abstract 3D art. Use custom illustration only when it communicates something specific and has appropriate rights.
 - Do not default to oversized centered headline, pill eyebrow, gradient glow, glass panels, identical rounded feature cards, gratuitous badges, floating decorative blobs, excessive icons, fake metrics, logo strips or generic AI copy. Any such treatment must have a product-specific purpose. Avoid a uniform hero/features/CTA template across products.
-- Use purposeful asymmetry, whitespace, text scale, contrast, and content density. Use the shared soft geometry baseline for controls and surfaces unless the product has a documented reason to diverge; do not impose one palette, font, dark theme or layout on the entire organization. Reuse accessible behavior and semantic tokens without forcing visual sameness.
+- Use purposeful asymmetry, whitespace, text scale, contrast and content density. Choose the surface and accent from the product's current identity and the needs of its main artifact, such as readable code or visible focus. When the identity is still forming, compare distinct palette directions on that same artifact and record the reason for the choice. Light surfaces, dark surfaces and green accents are all product decisions. Shared components provide accessible behavior and semantic token roles. Set product-level token values to match the chosen direction.
 - Use direct human copy. State what happens, how to use it and what the visitor gains. Remove repeated slogans, padded feature lists, em/en dashes as sentence punctuation, invented evidence and unnecessary labels.
-- Animate actual product behavior when useful. Prefer stable demonstrations with natural transitions and distinct examples; avoid endless decorative loops, unmotivated auto-play, controls duplicated elsewhere, or motion that obscures reading. Provide accessible control when automatically moving content requires it, and a reliable static reduced-motion state.
 
 ## Native documentation and delivery
 
